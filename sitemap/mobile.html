@@ -37,7 +37,7 @@ body {font-family:roboto, arial, sans-serif;font-size:16px;margin:0;padding:0}
 .content-wrapper{width:100%;max-width:960px;margin-left: auto;margin-right: auto;}
 .clear{clear:both;display:block}
 
-#menu-kecil {width:100%;height:30px;position:fixed;top:60px;left:0;background:#fff;box-shadow: 2px 1px 1px rgba(0,0,0,.15);text-transform:uppercase;z-index:1003}
+#menu-kecil {width:100%;height:30px;position:fixed;top:60px;left:0;background:#fff;box-shadow: 2px 1px 1px rgba(0,0,0,.15);text-transform:uppercase;z-index:99}
 #menu-kecil ul {width:100%;display:inline;margin: 0;padding:0}
 #menu-kecil ul li {width:33.333%;list-style:none;float:left;}
 #menu-kecil ul li a{background:#f4f4f4;color:#888;line-height:30px;font-size:12px;display:block;text-align: center;font-weight:500;text-decoration:none}
@@ -131,7 +131,7 @@ amp-sidebar button{margin-left:20px}
 @media screen and (max-width:414px){
 #feed-container{margin:0 -20px 0 0;}
 #feed-container li{width:50%;margin:0 0 80px;padding:0 20px 0 0;}
-.post{padding-top:80px;border:none}
+.post{padding:80px 20px 20px;border:none}
 .image-container {height:96px}
 .post h2{display:none}
 }
@@ -143,7 +143,7 @@ td{display:block}
 #feed-container{margin:0 -20px 0 0;}
 #feed-container li{width:100%;margin:0 0 10px;padding:0 20px 0 0;}
 #feed-container li .inner{height:80px}
-.image-container{width:40%;height:77px;margin-right:20px;float:left}
+.image-container{width:47%;height:95px;margin-right:20px;float:left}
 #table-outer{font-size:15px}
 }
 @media screen and (max-width:320px){
@@ -186,12 +186,10 @@ td{display:block}
 <amp-img alt='close sidebar' class='amp-close-image' height='20' on='tap:sidebar.close' role='button' src='https://ampbyexample.com/img/ic_close_black_18dp_2x.png' tabindex='0' width='22'></amp-img>
 <nav>
     <ul>
-      <li><a class='sidebar-amp' href='/'>Home</a></li>
-      <li><a class='sidebar-amp' href='#' itemprop='url' title='About'>About</a></li>
-      <li><a class='sidebar-amp' href='#' itemprop='url' title='Contact'>Contact</a></li>
-      <li><a class='sidebar-amp' href='#' itemprop='url' title='Privacy'>Privacy</a></li>
-      <li><a class='sidebar-amp' href='#' itemprop='url' title='Sitemap'>Sitemap</a></li>
-      <li><a class='sidebar-amp' href='#' itemprop='url' title='Facebook Group'>FB Group</a></li>
+      <li><a class='sidebar-amp' href='https://www.assaef.web.id/'>Beranda</a></li>
+      <li><a class='sidebar-amp' href='https://www.assaef.web.id/p/tentang-as-saef.html' itemprop='url' title='About'>Tentang As-Saef</a></li>
+      <li><a class='sidebar-amp' href='https://www.assaef.web.id/p/contact.html' itemprop='url' title='Contact'>Kontak Kami</a></li>
+      <li><a class='sidebar-amp' href='https://cdn.assaef.web.id/sitemap/mobile.html' itemprop='url' title='Sitemap'>Daftar Isi</a></li>
     </ul>
   </nav>
 </amp-sidebar>
