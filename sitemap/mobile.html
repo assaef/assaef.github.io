@@ -181,7 +181,7 @@ td{display:block}
 </div>
     </section>
 </amp-accordion>
-	<button class='btn-sidebaramp' on='tap:sidebar.toggle'/>
+<button class='btn-sidebaramp' on='tap:sidebar.toggle'></button>
 <amp-sidebar id='sidebar' layout='nodisplay' side='left'>
 <amp-img alt='close sidebar' class='amp-close-image' height='20' on='tap:sidebar.close' role='button' src='https://ampbyexample.com/img/ic_close_black_18dp_2x.png' tabindex='0' width='22'></amp-img>
 <nav>
@@ -210,16 +210,14 @@ td{display:block}
 	<div class='post'>
 
 <div id="table-outer">
-<form method="get" action="/" target="_blank">
 <table><tbody>
 <tr><td><label for="feed-order">Urutkan artikel berdasarkan:</label></td> <td><select id="feed-order"> <option selected="" value="published">Artikel terbaru</option> <option value="updated">Artikel yang terakhir di update</option> </select></td></tr>
 <tr><td><label for="label-sorter">Filter artikel berdasarkan kategori:</label></td> <td><select disabled="" id="label-sorter"> <option selected="">Loading....</option> </select></td></tr>
-<tr>                 <td><label for="feed-q">Cari artikel dengan kata kunci:</label></td> <td><form method="get" action="/" target="_blank" id="post-searcher">
+<tr>                 <td><label for="feed-q">Cari artikel dengan kata kunci:</label></td> <td><form id="post-searcher">
 <input id="feed-q" type="text" placeholder="Ketik dan tekan ENTER"/>
 </form>
 </td></tr>
 </tbody></table>
-</form>
 </div>
 <header id="result-desc"></header>
 <ul id="feed-container"></ul>
